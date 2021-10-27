@@ -15,8 +15,8 @@ const damage = () => {
     life = life - 10;
     console.log(life)
     //console.clear();
-    }else if(life = 0){
-        
+    }if(life <= 0){
+        alert("you are dead");
     } 
 }
 
